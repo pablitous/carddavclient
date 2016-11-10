@@ -1,0 +1,4 @@
+<?php
+$array =Array ( 0 => Array ( 'vcf' => '/dav.php/addressbooks/pablitous/default/a278fe3c-cb7c-c434-e13c-f238d489.vcf','name' => 'adFhrslNfQ' ,'vcard' => 'BEGIN:VCARD VERSION:3.0 PRODID:-//Sabre//Sabre VObject 4.1.0//EN UID:sabre-vobject-a3df456d-8492-481f-991d-5a5dd54b1bc8 FN:adFhrslNfQ TEL:2007003164 EMAIL;TYPE=home,work;PREF=1:QkFn@gmail.com END:VCARD' ), 1 => Array ( 'vcf' => '/dav.php/addressbooks/pablitous/default/dceb05dc-c90a-8f3f-49fa-6e272c14.vcf', 'name' => 'ADfHRSLnFq' ,'vcard' => 'BEGIN:VCARD VERSION:3.0 PRODID:-//Sabre//Sabre VObject 4.1.0//EN UID:sabre-vobject-0480b91a-b742-42a1-8d93-7f7fe5528b26 FN:ADfHRSLnFq TEL:7552558619 EMAIL;TYPE=home,work;PREF=1:qKfN@gmail.com END:VCARD ') );
+
+echo array_search('/dav.php/addressbooks/pablitous/default/dceb05dc-c90a-8f3f-49fa-6e272c14.vcf', array_column($array, 'vcf'));
